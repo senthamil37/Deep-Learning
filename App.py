@@ -10,7 +10,7 @@ st.set_page_config(page_title="Handwritten Digit Recognition", page_icon="✍️
 # Load the pre-trained model
 @st.cache_resource
 def load_my_model():
-    return load_model('mnist.h5')
+    return load_model('Hand Written Digits Recognition Using CNN.ipynb')
 
 model = load_my_model()
 
